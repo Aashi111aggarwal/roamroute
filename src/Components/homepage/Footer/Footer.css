@@ -1,0 +1,47 @@
+.footer{
+    background:grey;
+    padding: 2rem 0;
+
+    .setContainer{
+        gap:1.5rem;
+        text-align: center;
+        align-items: flex-start;
+
+        .logoDiv{
+            .footerLogo{
+                display: flex;
+                color:black;
+                font-weight: 500;
+                cursor:pointer;
+                align-items: center;
+                padding-bottom: .5rem;
+
+                .icon{
+                    font-size: 25px;
+                    color:black;
+                }
+            }
+
+            .socials{
+                gap:.5rem;
+                margin:auto;
+                justify-content: center;
+            }
+
+            .icon{
+                font-size: 25px;
+                background:orange;
+                border-radius: 50%;
+                padding:0px ;
+                color: white;
+                &:hover{
+                    background:blue;
+                }
+            }
+        }
+
+        .footerLinks{
+            display: grid;
+        }
+    }
+}
